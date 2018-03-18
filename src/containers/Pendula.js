@@ -63,7 +63,7 @@ class Pendula extends Component {
   }
 
   render () {
-    const {bounds, ready, arms, showControls} = this.state
+    const {bounds, ready, showControls} = this.state
     return (
       <div ref='sketchContainer'>
         <SketchWrapper ready={ready}>
